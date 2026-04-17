@@ -134,7 +134,7 @@ function editUser(id, name, age) {
   document.getElementById("userId").value = id;
   document.getElementById("name").value = name;
   document.getElementById("age").value = age;
-
+  document.querySelector("#userModal .modal-title").textContent = "Edit Student";
   new bootstrap.Modal(document.getElementById('userModal')).show();
 }
 
@@ -157,5 +157,8 @@ function clearForm() {
   document.getElementById("userId").value = "";
   document.getElementById("name").value = "";
   document.getElementById("age").value = "";
+  document.getElementById("name").classList.remove("is-invalid"); 
+  document.getElementById("age").classList.remove("is-invalid");
+  document.querySelector("#userModal .modal-title").textContent = "Add Student";
 }
 
