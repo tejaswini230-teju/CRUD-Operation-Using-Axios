@@ -1,14 +1,19 @@
 {
   "users": [
     {
-      "name": "Tej",
-      "age": "21",
+      "name": "Teju",
+      "age": "23",
       "id": "9BNEpc3URKM"
     },
     {
-      "name": "Aswini",
-      "age": "25",
-      "id": "SyUhwTkm8MI"
+      "name": "kavya",
+      "age": "22",
+      "id": "vB5BMVepDQ0"
+    },
+    {
+      "name": "Nani",
+      "age": "18",
+      "id": "LBoo8b0m0Fk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
